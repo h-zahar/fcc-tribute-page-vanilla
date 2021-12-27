@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 #body {
     background-color: rgb(231, 231, 231);
 }
@@ -15,9 +19,13 @@
 #img-div {
     margin: 0;
     padding: 0 4%;
+    width: 100%;
     background-color: white;
 }
 
 #image {
-    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 0.5%;
+    display: block;
 }
